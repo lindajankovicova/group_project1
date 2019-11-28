@@ -3,5 +3,7 @@ body{
 
   text-align: center;
   font-style: bold;
-  color:rgb(0,64,255);
+  color:rgb(30,64,25);
+  background:pink;
+  font-family:Arial;
 }
