@@ -12,13 +12,23 @@ body{
   cursor: pointer;
 }
 .test{
+
+  background-color:rgb(200,30,30);
+  font-family: 'Rouge Script', cursive; font-size: 12px;
+  color: white;
   height:20px;
   width:50px;
-  background-color:rgb(200,30,30);
-  font-family: 'Rouge Script', cursive; font-size: 16px;
-  color: white;
-  padding: 25px 51px;
-  text-align:left;
+  padding: 25px 42px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
-
+}
+.newspaper {
+  -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;
+  column-count: 400px;
 }
